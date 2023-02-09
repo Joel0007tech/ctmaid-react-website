@@ -74,7 +74,7 @@ const CustomerCareNumber = {
   color: "steelblue",
   fontWeight: "600",
   position: "relative",
-  left: "35px",
+  left: "2px",
 };
 const WhatsappAddressFacebook = {
   display: "flex",
