@@ -185,6 +185,7 @@ const FirstParagraphAssistanceFlex = {
   fontFamily: "Hanken Grotesk, sans-serif",
   fontWeight: "600",
   lineHeight: "20px",
+  color: "gray",
 };
 const SecondAssistanceFlex = {
   display: "flex",
@@ -215,6 +216,7 @@ const SecondParagraphAssistanceFlex = {
   fontFamily: "Hanken Grotesk, sans-serif",
   fontWeight: "600",
   lineHeight: "20px",
+  color: "gray",
 };
 
 const FourthSection = {
@@ -228,9 +230,9 @@ const FourthSectionHeading = {
 };
 const FourthSectionParagraph = {
   textAlign: "center",
-  fontSize: "16px",
+  fontSize: "20px",
   fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "800",
+  fontWeight: "500",
 };
 const SolutionFlex = {
   display: "flex",
@@ -249,7 +251,8 @@ const SolutionFlexParagraph = {
   textAlign: "center",
   fontSize: "13px",
   fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "800",
+  fontWeight: "700",
+  color: "gray",
 };
 const FirstSolutionFlex = {
   display: "flex",
