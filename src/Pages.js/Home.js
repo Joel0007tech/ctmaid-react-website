@@ -239,7 +239,7 @@ function Home() {
       </div>
       <div className="requests">
         <img src={RequestsImage} alt="" />
-        <div className="requestsParagraphLink">
+        <div className="requestsParagraphlink">
           <p>
             Intent in being responsible in creating a<br />
             sustainable future for our planet?
