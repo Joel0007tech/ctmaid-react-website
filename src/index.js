@@ -5,7 +5,6 @@ import Home from "./Pages.js/Home";
 import About from "./Pages.js/About";
 import Blog from "./Pages.js/Blog";
 import Contact from "./Pages.js/Contact";
-import Stylesheet from "./Pages.js/stylesheet";
 
 export default function App() {
   return (
@@ -25,6 +24,5 @@ const root = createRoot(container);
 root.render(
   <div>
     <App />
-    <Stylesheet />
   </div>
 );
