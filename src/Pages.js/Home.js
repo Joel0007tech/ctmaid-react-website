@@ -19,393 +19,65 @@ import FifthClientImage from "./WhatsApp Image 2023-01-27 at 6.39.png";
 import BtnImageItem from "./Rectangle-3.svg";
 import RequestsImage from "./hamza-javaid-PizD8punZsw-unsplash.svg";
 import Footer from "./footer";
+import "./home.css";
 
-const FirstSection = {
-  backgroundColor: "whitesmoke",
-  paddingTop: "8rem",
-};
-const FirstSectionHeading = {
-  color: "black",
-  textAlign: "center",
-  fontSize: "30px",
-  marginBottom: "30px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "900",
-};
-const FirstSectionParagraph = {
-  color: "black",
-  textAlign: "center",
-  fontSize: "20px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "500",
-};
-const FirstSectionImageFlex = {
-  display: "flex",
-  flexDirection: "row",
-  gap: "70px",
-  justifyContent: "center",
-  marginTop: "5%",
-};
-
-const SecondSection = {
-  paddingTop: "5%",
-  backgroundColor: "whitesmoke",
-};
-const SecondSectionHeading = {
-  textAlign: "center",
-  color: "black",
-  fontSize: "30px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "900",
-  paddingTop: "4%",
-};
-const SecondSectionParagraph = {
-  textAlign: "center",
-  color: "black",
-  fontSize: "20px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "500",
-  marginTop: "10px",
-};
-const ImpactItemsFlex = {
-  display: "flex",
-  gap: "50px",
-  marginTop: "5%",
-  justifyContent: "center",
-  boxShadow: "0px 0px 90px 0.1px rgba(0, 0, 2, 0.1)",
-};
-const FirstImpactItemsFlex = {
-  backgroundColor: "white",
-  padding: "15px",
-  display: "flex",
-  flexDirection: "column",
-  borderRadius: "10px",
-  paddingLeft: "35px",
-  paddingRight: "35px",
-  height: "120px",
-};
-const SecondImpactItemsFlex = {
-  backgroundColor: "white",
-  padding: "15px",
-  display: "flex",
-  flexDirection: "column",
-  borderRadius: "10px",
-  paddingLeft: "35px",
-  paddingRight: "35px",
-  height: "120px",
-};
-const ThirdImpactItemsFlex = {
-  backgroundColor: "white",
-  padding: "15px",
-  display: "flex",
-  flexDirection: "column",
-  borderRadius: "10px",
-  paddingLeft: "35px",
-  paddingRight: "35px",
-  height: "120px",
-};
-const FourthImpactItemsFlex = {
-  backgroundColor: "white",
-  padding: "15px",
-  display: "flex",
-  flexDirection: "column",
-  borderRadius: "10px",
-  paddingLeft: "35px",
-  paddingRight: "35px",
-  height: "120px",
-};
-const ImpactItemsFlexHeading = {
-  textAlign: "center",
-  color: "orange",
-  fontSize: "25px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  position: "relative",
-  bottom: "20px",
-  fontWeight: "600",
-};
-const ImpactItemsFlexParagraph = {
-  textAlign: "center",
-  fontSize: "16px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "600",
-  position: "relative",
-  bottom: "50%",
-};
-const ThirdSection = {
-  paddingTop: "9%",
-};
-const ThirdSectionHeading = {
-  textAlign: "center",
-  color: "black",
-  fontSize: "30px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "900",
-};
-const ThirdSectionParagraph = {
-  textAlign: "center",
-  color: "black",
-  fontSize: "20px",
-  marginTop: "10px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "500",
-};
-const AssistanceFlex = {
-  display: "flex",
-  flexDirection: "row",
-  gap: "5px",
-  justifyContent: "center",
-  marginTop: "5%",
-};
-const FirstAssistanceFlex = {
-  display: "flex",
-};
-const FirstHeadingAssistanceFlex = {
-  width: "130px",
-  height: "80px",
-  borderRadius: "50%",
-  textAlign: "center",
-  backgroundColor: "steelblue",
-  color: "white",
-  padding: "15px",
-  paddingTop: "3.9rem",
-  position: "relative",
-  left: "150px",
-  bottom: "5px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-};
-const FirstParagraphAssistanceFlex = {
-  backgroundColor: "rgb(212, 217, 221)",
-  borderRadius: "70px",
-  fontSize: "13px",
-  width: "320px",
-  textAlign: "justify",
-  height: "130px",
-  paddingTop: "2rem",
-  paddingLeft: "10rem",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "600",
-  lineHeight: "20px",
-  color: "gray",
-};
-const SecondAssistanceFlex = {
-  display: "flex",
-};
-const SecondHeadingAssistanceFlex = {
-  width: "130px",
-  height: "80px",
-  borderRadius: "50%",
-  textAlign: "center",
-  backgroundColor: "orange",
-  color: "white",
-  padding: "15px",
-  paddingTop: "4rem",
-  position: "relative",
-  left: "150px",
-  bottom: "5px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-};
-const SecondParagraphAssistanceFlex = {
-  backgroundColor: "rgb(243, 217, 221)",
-  borderRadius: "70px",
-  fontSize: "13px",
-  width: "310px",
-  textAlign: "justify",
-  height: "120px",
-  paddingTop: "2.5rem",
-  paddingLeft: "10rem",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "600",
-  lineHeight: "20px",
-  color: "gray",
-};
-
-const FourthSection = {
-  paddingTop: "6%",
-  backgroundColor: "whitesmoke",
-  fontFamily: "Hanken Grotesk, sans-serif",
-};
-const FourthSectionHeading = {
-  textAlign: "center",
-  fontSize: "25px",
-};
-const FourthSectionParagraph = {
-  textAlign: "center",
-  fontSize: "20px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "500",
-};
-const SolutionFlex = {
-  display: "flex",
-  gap: "30px",
-  justifyContent: "center",
-  paddingTop: "3%",
-  boxShadow: "0px 0px 90px 0.1px rgba(0, 0, 2, 0.1)",
-};
-const SolutionFlexHeading = {
-  textAlign: "center",
-  fontSize: "16px",
-  color: "steelblue",
-  fontFamily: "Hanken Grotesk, sans-serif",
-};
-const SolutionFlexParagraph = {
-  textAlign: "center",
-  fontSize: "13px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "700",
-  color: "gray",
-};
-const FirstSolutionFlex = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "10px",
-  padding: "35px",
-  backgroundColor: "white",
-  borderRadius: "45%",
-  borderBottom: "none",
-  borderBottomLeftRadius: "10px",
-  borderBottomRightRadius: "10px",
-};
-const SecondSolutionFlex = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "10px",
-  padding: "35px",
-  backgroundColor: "white",
-  borderRadius: "45%",
-  borderBottom: "none",
-  borderBottomLeftRadius: "10px",
-  borderBottomRightRadius: "10px",
-};
-const ThirdSolutionFlex = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "10px",
-  padding: "15px",
-  paddingTop: "2.4%",
-  backgroundColor: "white",
-  borderRadius: "45%",
-  borderBottom: "none",
-  borderBottomLeftRadius: "10px",
-  borderBottomRightRadius: "10px",
-};
-const FourthSolutionFlex = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "10px",
-  padding: "35px",
-  backgroundColor: "white",
-  borderRadius: "45%",
-  borderBottom: "none",
-  borderBottomLeftRadius: "10px",
-  borderBottomRightRadius: "10px",
-};
-
-const Clients = { padding: "7%" };
-const ClientsHeading = {
-  textAlign: "center",
-  fontSize: "25px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-};
-const ClientsImageFlex = {
-  display: "flex",
-  gap: "50px",
-  paddingTop: "3%",
-  justifyContent: "space-around",
-};
-
-const BtnImage = {
-  display: "flex",
-  justifyContent: "center",
-  padding: "7%",
-};
-const Requests = {
-  display: "flex",
-  flexDirection: "row",
-  gap: "20px",
-  marginTop: "9%",
-  backgroundColor: "rgb(212, 217, 221)",
-};
-const RequestsParagraphLink = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "15px",
-  marginTop: "10px",
-};
-const RequestsParagraph = {
-  fontSize: "30px",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  fontWeight: "900",
-  wordSpacing: "2px",
-};
-const RequestsLink = {
-  padding: "10px",
-  textDecoration: "none",
-  fontFamily: "Hanken Grotesk, sans-serif",
-  backgroundColor: "steelblue",
-  textAlign: "center",
-  width: "fit-content",
-  borderRadius: "10px",
-  paddingLeft: "15px",
-  paddingRight: "15px",
-  fontWeight: "800",
-  color: "white",
-};
 function Home() {
   return (
     <div>
       <Navbar />
-      <div style={FirstSection}>
-        <h2 style={FirstSectionHeading}>CTMAID SYNERGY</h2>
-        <p style={FirstSectionParagraph}>
+      <div className="firstSection">
+        <h3 className="act"> hello</h3>
+        <h2>CTMAID SYNERGY</h2>
+        <p>
           The waste we create today will have an impact on our planet for
           <br />
           years to come, let's make sure it's a positive one.
         </p>
-        <div style={FirstSectionImageFlex}>
+        <div className="firstSectionimageFlex">
           <img src={FirstSynergyImage} alt="" />
           <img src={SecondSynergyImage} alt="" />
           <img src={ThirdSynergyImage} alt="" />
         </div>
       </div>
-      <div style={SecondSection}>
-        <h2 style={SecondSectionHeading}>Our Impact</h2>
-        <p style={SecondSectionParagraph}>
+      <div className="secondSection">
+        <h2>Our Impact</h2>
+        <p>
           CTMaid Synergy is making social, environmental and economic impacts in
           the cities it operates.
         </p>
-        <div style={ImpactItemsFlex}>
-          <div style={FirstImpactItemsFlex}>
+        <div className="impactItemsflex">
+          <div className="firstImpactitemsFlex">
             <img src={FirstImpactImage} alt="" />
-            <h4 style={ImpactItemsFlexHeading}>100</h4>
-            <p style={ImpactItemsFlexParagraph}>Empowered waste pickers</p>
+            <h4>100</h4>
+            <p>Empowered waste pickers</p>
           </div>
-          <div style={SecondImpactItemsFlex}>
+          <div className="secondImpactitemsFlex">
             <img src={SecondImpactImage} alt="" />
-            <h4 style={ImpactItemsFlexHeading}>20</h4>
-            <p style={ImpactItemsFlexParagraph}>Professional workers</p>
+            <h4>20</h4>
+            <p>Professional workers</p>
           </div>
-          <div style={ThirdImpactItemsFlex}>
+          <div className="thirdImpactitemsFlex">
             <img src={ThirdImpactImage} alt="" />
-            <h4 style={ImpactItemsFlexHeading}>1000 +</h4>
-            <p style={ImpactItemsFlexParagraph}>Residents served</p>
+            <h4>1000 +</h4>
+            <p>Residents served</p>
           </div>
-          <div style={FourthImpactItemsFlex}>
+          <div className="fourthImpactitemsFlex">
             <img src={FourthImpactImage} alt="" />
-            <h4 style={ImpactItemsFlexHeading}>10 tonnes</h4>
-            <p style={ImpactItemsFlexParagraph}>Plastic weight recycle</p>
+            <h4>10 tonnes</h4>
+            <p>Plastic weight recycle</p>
           </div>
         </div>
       </div>
-      <div style={ThirdSection}>
-        <h2 style={ThirdSectionHeading}>How may we be of assistance?</h2>
-        <p style={ThirdSectionParagraph}>
+      <div className="thirdSection">
+        <h2>How may we be of assistance?</h2>
+        <p>
           We work to reduce, reuse, and recycle to create a cleaner, healthier
           and more sustainable future.
         </p>
-        <div style={AssistanceFlex}>
-          <div style={FirstAssistanceFlex}>
-            <h3 style={FirstHeadingAssistanceFlex}>MISSION</h3>
-            <p style={FirstParagraphAssistanceFlex}>
+        <div className="assistanceFlex">
+          <div className="firstAssistanceflex">
+            <h3>MISSION</h3>
+            <p>
               We are committed to attaining efficient waste
               <br />
               management systems and employing versatile
@@ -417,9 +89,9 @@ function Home() {
               regular and on-time service delivery methods.
             </p>
           </div>
-          <div style={SecondAssistanceFlex}>
-            <h3 style={SecondHeadingAssistanceFlex}>VISION</h3>
-            <p style={SecondParagraphAssistanceFlex}>
+          <div className="secondAssistanceflex">
+            <h3>VISION</h3>
+            <p>
               To be the best provider of environmental
               <br />
               services in Africa.
@@ -427,14 +99,14 @@ function Home() {
           </div>
         </div>
       </div>
-      <div style={FourthSection}>
-        <h2 style={FourthSectionHeading}>Solutions for Various Industries</h2>
-        <p style={FourthSectionParagraph}>
+      <div className="fourthSection">
+        <h2>Solutions for Various Industries</h2>
+        <p>
           Our crew work together to reduce, reuse, and recycle to create a
           cleaner, healthier and more sustainable future
         </p>
-        <div style={SolutionFlex}>
-          <div style={FirstSolutionFlex}>
+        <div className="solutionFlex">
+          <div className="firstSolutionflex">
             <img
               src={FirstSolutionImage}
               alt=""
@@ -445,8 +117,8 @@ function Home() {
                 margin: "0 auto",
               }}
             />
-            <h3 style={SolutionFlexHeading}>E-Waste Management</h3>
-            <p style={SolutionFlexParagraph}>
+            <h3>E-Waste Management</h3>
+            <p>
               Hazardous waste, such as
               <br />
               chemicals and batteries, require
@@ -458,7 +130,7 @@ function Home() {
               and the environment.
             </p>
           </div>
-          <div style={SecondSolutionFlex}>
+          <div className="secondSolutionflex">
             <img
               src={SecondSolutionImage}
               alt=""
@@ -469,8 +141,8 @@ function Home() {
                 margin: "0 auto",
               }}
             />
-            <h3 style={SolutionFlexHeading}>Plastic Waste Management</h3>
-            <p style={SolutionFlexParagraph}>
+            <h3>Plastic Waste Management</h3>
+            <p>
               Hazardous waste, such as
               <br />
               chemicals and batteries, require
@@ -482,7 +154,7 @@ function Home() {
               and the environment.
             </p>
           </div>
-          <div style={ThirdSolutionFlex}>
+          <div className="thirdSolutionflex">
             <img
               src={ThirdSolutionImage}
               alt=""
@@ -493,8 +165,8 @@ function Home() {
                 margin: "0 auto",
               }}
             />
-            <h3 style={SolutionFlexHeading}>Municipal Waste Management</h3>
-            <p style={SolutionFlexParagraph}>
+            <h3>Municipal Waste Management</h3>
+            <p>
               Hazardous waste, such as
               <br /> chemicals and batteries, require
               <br /> special handling and disposal
@@ -502,7 +174,7 @@ function Home() {
               <br /> and the environment.
             </p>
           </div>
-          <div style={FourthSolutionFlex}>
+          <div className="fourthSolutionflex">
             <img
               src={FourthSolutionImage}
               alt=""
@@ -513,17 +185,17 @@ function Home() {
                 margin: "0 auto",
               }}
             />
-            <h3 style={SolutionFlexHeading}>Cleaning Services</h3>
-            <p style={SolutionFlexParagraph}>
+            <h3>Cleaning Services</h3>
+            <p>
               Proper waste management is
               <br /> crucial for preserving the planet
               <br /> for future generations.
             </p>
           </div>
         </div>
-        <div style={Clients}>
-          <h4 style={ClientsHeading}>Meet Our Clients</h4>
-          <div style={ClientsImageFlex}>
+        <div className="clients">
+          <h4>Meet Our Clients</h4>
+          <div className="clientsImageflex">
             <img
               src={FirstClientImage}
               alt=""
@@ -562,17 +234,17 @@ function Home() {
           </div>
         </div>
       </div>
-      <div style={BtnImage}>
+      <div className="btnImage">
         <img src={BtnImageItem} alt="" style={{ width: "1500px" }} />
       </div>
-      <div style={Requests}>
+      <div className="requests">
         <img src={RequestsImage} alt="" />
-        <div style={RequestsParagraphLink}>
-          <p style={RequestsParagraph}>
+        <div className="requestsParagraphLink">
+          <p>
             Intent in being responsible in creating a<br />
             sustainable future for our planet?
           </p>
-          <a href="http//" style={RequestsLink}>
+          <a href="http//" className="requestsLink">
             Request for waste collection
           </a>
         </div>
