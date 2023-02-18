@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Nav";
-import Logo from "./ctmaid 1.png";
+// import Logo from "./ctmaid 1.png";
 import FirstSynergyImage from "./Rectangle-2.svg";
 import SecondSynergyImage from "./Rectangle.svg";
 import ThirdSynergyImage from "./Rectangle-1.svg";
@@ -19,266 +19,42 @@ import FourthClientImage from "./WhatsApp Image 2023-01-27 at 6.34 (1).png";
 import FifthClientImage from "./WhatsApp Image 2023-01-27 at 6.39.png";
 import BtnImageItem from "./Rectangle-3.svg";
 import RequestsImage from "./hamza-javaid-PizD8punZsw-unsplash.svg";
-import FirstClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.31.png";
-import SecondClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.32.png";
-import ThirdClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.33.png";
-import FourthClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.34 (1).png";
-import FifthClientMobileImage from "./cli_5-be6da251.svg";
-import SixthClientMobileImage from "./cli_6-bef36947.svg";
-import SeventhClientMobileImage from "./cli_7-e305d0b7.svg";
-import FirstVectorImage from "./Vector (3).png";
-import SecondVectorImage from "./Vector.png";
-import ThirdVectorImage from "./Vector (1).png";
-import FourthVectorImage from "./Vector (2).png";
+// import FirstClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.31.png";
+// import SecondClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.32.png";
+// import ThirdClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.33.png";
+// import FourthClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.34 (1).png";
+// import FifthClientMobileImage from "./cli_5-be6da251.svg";
+// import SixthClientMobileImage from "./cli_6-bef36947.svg";
+// import SeventhClientMobileImage from "./cli_7-e305d0b7.svg";
+// import FirstVectorImage from "./Vector (3).png";
+// import SecondVectorImage from "./Vector.png";
+// import ThirdVectorImage from "./Vector (1).png";
+// import FourthVectorImage from "./Vector (2).png";
 import FirstMobileImage from "./head_4-8bb48958.png";
 import SecondMobileImage from "./head_2-a1723a84.png";
-import ThirdMobileImage from "./sol_2-1fbb264d.svg";
-import FourthMobileImage from "./sol_3-3ad25d14.svg";
+// import ThirdMobileImage from "./sol_2-1fbb264d.svg";
+// import FourthMobileImage from "./sol_3-3ad25d14.svg";
 import Footer from "./footer";
-import "./home.css";
+import "./Home.css";
 
-function openNav() {
-  document.getElementById("mySidepanel").style.width = "100%";
-}
+// function OpenNav() {
+//   document.getElementById("mySidepanel").style.width = "100%";
+// }
 
-function closeNav() {
-  document.getElementById("mySidepanel").style.width = "0";
-}
+// function CloseNav() {
+//   document.getElementById("mySidepanel").style.width = "0";
+// }
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <div className="firstSection">
-        <h2>CTMAID SYNERGY</h2>
-        <p>
-          The waste we create today will have an impact on our planet for
-          <br />
-          years to come, let's make sure it's a positive one.
-        </p>
-        <div className="firstSectionimageFlex">
-          <img src={FirstSynergyImage} alt="" />
-          <img src={SecondSynergyImage} alt="" />
-          <img src={ThirdSynergyImage} alt="" />
-        </div>
-      </div>
-      <div className="secondSection">
-        <h2>Our Impact</h2>
-        <p>
-          CTMaid Synergy is making social, environmental and economic impacts in
-          the cities it operates.
-        </p>
-        <div className="impactItemsflex">
-          <div className="firstImpactitemsFlex">
-            <img src={FirstImpactImage} alt="" />
-            <h4>100+</h4>
-            <p>Empowered waste pickers</p>
-          </div>
-          <div className="secondImpactitemsFlex">
-            <img src={SecondImpactImage} alt="" />
-            <h4>20</h4>
-            <p>Professional workers</p>
-          </div>
-          <div className="thirdImpactitemsFlex">
-            <img src={ThirdImpactImage} alt="" />
-            <h4>1000 +</h4>
-            <p>Residents served</p>
-          </div>
-          <div className="fourthImpactitemsFlex">
-            <img src={FourthImpactImage} alt="" />
-            <h4>10 tonnes</h4>
-            <p>Plastic weight recycle</p>
-          </div>
-        </div>
-      </div>
-      <div className="thirdSection">
-        <h2>How may we be of assistance?</h2>
-        <p>
-          We work to reduce, reuse, and recycle to create a cleaner, healthier
-          and more sustainable future.
-        </p>
-        <div className="assistanceFlex">
-          <div className="firstAssistanceflex">
-            <h3>MISSION</h3>
-            <p>
-              We are committed to attaining efficient waste
-              <br />
-              management systems and employing versatile
-              <br />
-              solutions and best practices in order to give
-              <br />
-              our customers a pollution free environment via
-              <br />
-              regular and on-time service delivery methods.
-            </p>
-          </div>
-          <div className="secondAssistanceflex">
-            <h3>VISION</h3>
-            <p>
-              To be the best provider of environmental
-              <br />
-              services in Africa.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="fourthSection">
-        <h2>Solutions for Various Industries</h2>
-        <p>
-          Our crew work together to reduce, reuse, and recycle to create a
-          cleaner, healthier and more sustainable future
-        </p>
-        <div className="solutionFlex">
-          <div className="firstSolutionflex">
-            <img
-              src={FirstSolutionImage}
-              alt=""
-              style={{
-                width: "150px",
-                height: "150px",
-                display: "block",
-                margin: "0 auto",
-              }}
-            />
-            <h3>E-Waste Management</h3>
-            <p>
-              Hazardous waste, such as
-              <br />
-              chemicals and batteries, require
-              <br />
-              special handling and disposal
-              <br />
-              methods to protect human health
-              <br />
-              and the environment.
-            </p>
-          </div>
-          <div className="secondSolutionflex">
-            <img
-              src={SecondSolutionImage}
-              alt=""
-              style={{
-                width: "150px",
-                height: "150px",
-                display: "block",
-                margin: "0 auto",
-              }}
-            />
-            <h3>Plastic Waste Management</h3>
-            <p>
-              Hazardous waste, such as
-              <br />
-              chemicals and batteries, require
-              <br />
-              special handling and disposal
-              <br />
-              methods to protect human health
-              <br />
-              and the environment.
-            </p>
-          </div>
-          <div className="thirdSolutionflex">
-            <img
-              src={ThirdSolutionImage}
-              alt=""
-              style={{
-                width: "150px",
-                height: "150px",
-                display: "block",
-                margin: "0 auto",
-              }}
-            />
-            <h3>Municipal Waste Management</h3>
-            <p>
-              Hazardous waste, such as
-              <br /> chemicals and batteries, require
-              <br /> special handling and disposal
-              <br /> methods to protect human health
-              <br /> and the environment.
-            </p>
-          </div>
-          <div className="fourthSolutionflex">
-            <img
-              src={FourthSolutionImage}
-              alt=""
-              style={{
-                width: "150px",
-                height: "150px",
-                display: "block",
-                margin: "0 auto",
-              }}
-            />
-            <h3>Cleaning Services</h3>
-            <p>
-              Proper waste management is
-              <br /> crucial for preserving the planet
-              <br /> for future generations.
-            </p>
-          </div>
-        </div>
-        <div className="clients">
-          <h4>Meet Our Clients</h4>
-          <div className="clientsImageflex">
-            <img
-              src={FirstClientImage}
-              alt=""
-              style={{ width: "200px", height: "150px" }}
-            />
-            <img
-              src={SecondClientImage}
-              alt=""
-              style={{
-                width: "200px",
-                height: "30px",
-                position: "relative",
-                top: "50px",
-              }}
-            />
-            <img
-              src={ThirdClientImage}
-              alt=""
-              style={{ width: "200px", height: "150px" }}
-            />
-            <img
-              src={FourthClientImage}
-              alt=""
-              style={{ width: "200px", height: "150px" }}
-            />
-            <img
-              src={FifthClientImage}
-              alt=""
-              style={{
-                width: "200px",
-                height: "50px",
-                position: "relative",
-                top: "40px",
-              }}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="btnImage">
-        <img src={BtnImageItem} alt="" style={{ width: "1500px" }} />
-      </div>
-      <div className="requests">
-        <img src={RequestsImage} alt="" />
-        <div className="requestsParagraphlink">
-          <p>
-            Intent in being responsible in creating a<br />
-            sustainable future for our planet?
-          </p>
-          <a href="http//" className="requestsLink">
-            Request for waste collection
-          </a>
-        </div>
-      </div>
-      <Footer />
-      <div id="mobileView">
+      {/* <div id="mobileView">
         <div id="mySidepanel" className="sidePanel">
           <a
             href="https://google.com"
             className="closeBtn"
-            onClick={closeNav()}
+            onClick={CloseNav()}
           >
             &times;
           </a>
@@ -307,7 +83,7 @@ function Home() {
             style={{ height: "100px", width: "200px" }}
             alt=""
           />
-          <button className="openBtn" onclick={openNav()}>
+          <button className="openBtn" onclick={OpenNav()}>
             ≡
           </button>
         </div>
@@ -553,7 +329,234 @@ function Home() {
           />
           <img src={FourthVectorImage} alt="" height="30px" width="28px" />
         </div>
-      </footer>
+      </footer> */}
+      <div className="firstSection">
+        <h2>CTMAID SYNERGY</h2>
+        <p>
+          The waste we create today will have an impact on our planet for
+          <br />
+          years to come, let's make sure it's a positive one.
+        </p>
+        <div className="firstSectionimageFlex">
+          <img src={FirstSynergyImage} alt="" className="firstSynergyimage" />
+          <img src={SecondSynergyImage} alt="" className="secondSynergyimage" />
+          <img src={FirstMobileImage} alt="" className="firstMobileimage" />
+          <img src={SecondMobileImage} alt="" className="secondMobileimage" />
+          <img src={ThirdSynergyImage} alt="" />
+        </div>
+      </div>
+      <div className="secondSection">
+        <h2>Our Impact</h2>
+        <p>
+          CTMaid Synergy is making social, environmental and economic impacts in
+          the cities it operates.
+        </p>
+        <div className="impactItemsflex">
+          <div className="firstImpactitemsFlex">
+            <img src={FirstImpactImage} alt="" />
+            <h4>100+</h4>
+            <p>Empowered waste pickers</p>
+          </div>
+          <div className="secondImpactitemsFlex">
+            <img src={SecondImpactImage} alt="" />
+            <h4>20</h4>
+            <p>Professional workers</p>
+          </div>
+          <div className="thirdImpactitemsFlex">
+            <img src={ThirdImpactImage} alt="" />
+            <h4>1000 +</h4>
+            <p>Residents served</p>
+          </div>
+          <div className="fourthImpactitemsFlex">
+            <img src={FourthImpactImage} alt="" />
+            <h4>10 tonnes</h4>
+            <p>Plastic weight recycle</p>
+          </div>
+        </div>
+      </div>
+      <div className="thirdSection">
+        <h2>How may we be of assistance?</h2>
+        <p>
+          We work to reduce, reuse, and recycle to create a cleaner, healthier
+          and more sustainable future.
+        </p>
+        <div className="assistanceFlex">
+          <div className="firstAssistanceflex">
+            <h3>MISSION</h3>
+            <p>
+              We are committed to attaining efficient waste
+              <br />
+              management systems and employing versatile
+              <br />
+              solutions and best practices in order to give
+              <br />
+              our customers a pollution free environment via
+              <br />
+              regular and on-time service delivery methods.
+            </p>
+          </div>
+          <div className="secondAssistanceflex">
+            <h3>VISION</h3>
+            <p>
+              To be the best provider of environmental
+              <br />
+              services in Africa.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="fourthSection">
+        <h2>Solutions for Various Industries</h2>
+        <p>
+          Our crew work together to reduce, reuse, and recycle to create a
+          cleaner, healthier and more sustainable future
+        </p>
+        <div className="solutionFlex">
+          <div className="firstSolutionflex">
+            <img
+              src={FirstSolutionImage}
+              alt=""
+              style={{
+                width: "150px",
+                height: "150px",
+                display: "block",
+                margin: "0 auto",
+              }}
+            />
+            <h3>E-Waste Management</h3>
+            <p>
+              Hazardous waste, such as
+              <br />
+              chemicals and batteries, require
+              <br />
+              special handling and disposal
+              <br />
+              methods to protect human health
+              <br />
+              and the environment.
+            </p>
+          </div>
+          <div className="secondSolutionflex">
+            <img
+              src={SecondSolutionImage}
+              alt=""
+              style={{
+                width: "150px",
+                height: "150px",
+                display: "block",
+                margin: "0 auto",
+              }}
+            />
+            <h3>Plastic Waste Management</h3>
+            <p>
+              Hazardous waste, such as
+              <br />
+              chemicals and batteries, require
+              <br />
+              special handling and disposal
+              <br />
+              methods to protect human health
+              <br />
+              and the environment.
+            </p>
+          </div>
+          <div className="thirdSolutionflex">
+            <img
+              src={ThirdSolutionImage}
+              alt=""
+              style={{
+                width: "150px",
+                height: "150px",
+                display: "block",
+                margin: "0 auto",
+              }}
+            />
+            <h3>Municipal Waste Management</h3>
+            <p>
+              Hazardous waste, such as
+              <br /> chemicals and batteries, require
+              <br /> special handling and disposal
+              <br /> methods to protect human health
+              <br /> and the environment.
+            </p>
+          </div>
+          <div className="fourthSolutionflex">
+            <img
+              src={FourthSolutionImage}
+              alt=""
+              style={{
+                width: "150px",
+                height: "150px",
+                display: "block",
+                margin: "0 auto",
+              }}
+            />
+            <h3>Cleaning Services</h3>
+            <p>
+              Proper waste management is
+              <br /> crucial for preserving the planet
+              <br /> for future generations.
+            </p>
+          </div>
+        </div>
+        <div className="clients">
+          <h4>Meet Our Clients</h4>
+          <div className="clientsImageflex">
+            <img
+              src={FirstClientImage}
+              alt=""
+              style={{ width: "200px", height: "150px" }}
+            />
+            <img
+              src={SecondClientImage}
+              alt=""
+              style={{
+                width: "200px",
+                height: "30px",
+                position: "relative",
+                top: "50px",
+              }}
+            />
+            <img
+              src={ThirdClientImage}
+              alt=""
+              style={{ width: "200px", height: "150px" }}
+            />
+            <img
+              src={FourthClientImage}
+              alt=""
+              style={{ width: "200px", height: "150px" }}
+            />
+            <img
+              src={FifthClientImage}
+              alt=""
+              style={{
+                width: "200px",
+                height: "50px",
+                position: "relative",
+                top: "40px",
+              }}
+            />
+          </div>
+        </div>
+      </div>
+      <div className="btnImage">
+        <img src={BtnImageItem} alt="" style={{ width: "1500px" }} />
+      </div>
+      <div className="requests">
+        <img src={RequestsImage} alt="" />
+        <div className="requestsParagraphlink">
+          <p>
+            Intent in being responsible in creating a<br />
+            sustainable future for our planet?
+          </p>
+          <a href="http//" className="requestsLink">
+            Request for waste collection
+          </a>
+        </div>
+      </div>
+      <Footer />
+      <h3 className="act">hi</h3>
     </div>
   );
 }
