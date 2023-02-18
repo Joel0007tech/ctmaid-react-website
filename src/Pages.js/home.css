@@ -348,11 +348,23 @@
     overflow-x: hidden;
   }
   .firstSection h2 {
-    color: green;
-    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 900;
   }
-  .firstSection p {
-    color: blue;
+
+  .firstSectionparagraph {
+    display: none;
+  }
+  .firstSectionmobileParagraph {
+    color: black;
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
   }
   .firstSectionimageFlex {
     display: flex;
@@ -366,8 +378,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-top: 5%;
-    justify-content: center;
+    margin-top: 10%;
     box-shadow: 0px 0px 90px 0.1px rgba(0, 0, 2, 0.1);
   }
   .firstImpactitemsFlex {
@@ -379,6 +390,8 @@
     padding-left: 35px;
     padding-right: 35px;
     height: 200px;
+    width: 400px;
+    margin: 0 auto;
   }
   .secondImpactitemsFlex {
     background-color: white;
@@ -389,6 +402,8 @@
     padding-left: 35px;
     padding-right: 35px;
     height: 200px;
+    width: 400px;
+    margin: 0 auto;
   }
   .thirdImpactitemsFlex {
     background-color: white;
@@ -399,33 +414,37 @@
     padding-left: 35px;
     padding-right: 35px;
     height: 200px;
+    width: 400px;
+    margin: 0 auto;
   }
   .fourthImpactitemsFlex {
     background-color: white;
     padding: 15px;
     display: flex;
+    width: 400px;
     flex-direction: column;
     border-radius: 10px;
     padding-left: 35px;
     padding-right: 35px;
     height: 200px;
+    margin: 0 auto;
   }
   .impactItemsflex h4 {
     text-align: center;
     color: orange;
     font-size: 30px;
     font-family: "Hanken Grotesk", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 5px;
   }
   .impactItemsflex p {
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Hanken Grotesk", sans-serif;
     font-weight: 600;
   }
   .thirdSection {
-    padding-top: 9%;
+    padding-top: 20%;
   }
   .thirdSection h2 {
     text-align: center;
@@ -434,7 +453,10 @@
     color: black;
     font-weight: 900;
   }
-  .thirdSection p {
+  .thirdSectionparagraph {
+    display: none;
+  }
+  .thirdSectionparagraphMobile {
     text-align: center;
     font-size: 20px;
     font-family: "Hanken Grotesk", sans-serif;
@@ -443,113 +465,170 @@
     font-weight: 500;
   }
   .assistanceFlex {
+    display: none;
+  }
+  .assistanceCardsmobile {
+    padding-top: 5px;
+  }
+  .firstAssistancesubCardsmobile {
     display: flex;
-    flex-direction: row;
-    gap: 5px;
     justify-content: center;
-    margin-top: 5%;
+    flex-direction: column;
+    padding-top: 20%;
   }
-  .firstAssistanceflex {
-    display: flex;
-  }
-  .firstAssistanceflex h3 {
-    width: 130px;
-    height: 130px;
+  .firstAssistancesubCardsmobile h3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     text-align: center;
-    font-family: "Hanken Grotesk", sans-serif;
     background-color: steelblue;
-    position: relative;
-    left: 130px;
-    top: 5px;
-    padding: 15px;
-    padding-top: 3.5rem;
-    font-weight: 600;
+    padding-top: 5rem;
+    margin: 0 auto;
+    font-family: "Hanken Grotesk", sans-serif;
     color: white;
-    border-radius: 50%;
+    font-size: 30px;
   }
-  .firstAssistanceflex p {
-    width: 470px;
-    height: 130px;
-    text-align: justify;
-    font-family: "Hanken Grotesk", sans-serif;
-    background-color: rgb(212, 217, 221);
-    padding-top: 1rem;
-    padding-left: 9rem;
-    font-weight: 600;
-    color: gray;
-    border-radius: 70px;
-    font-size: 13px;
-    line-height: 20px;
-  }
-  .secondAssistanceflex {
-    display: flex;
-  }
-  .secondAssistanceflex h3 {
-    width: 130px;
-    height: 130px;
-    text-align: center;
-    font-family: "Hanken Grotesk", sans-serif;
-    background-color: orange;
-    position: relative;
-    left: 130px;
-    top: 5px;
-    padding: 15px;
-    padding-top: 3.5rem;
-    font-weight: 600;
-    color: white;
-    border-radius: 50%;
-  }
-  .secondAssistanceflex p {
-    width: 470px;
-    height: 130px;
-    text-align: justify;
-    font-family: "Hanken Grotesk", sans-serif;
-    background-color: rgb(243, 217, 221);
-    padding-top: 2.5rem;
-    padding-left: 10rem;
-    font-weight: 600;
-    color: gray;
-    border-radius: 70px;
-    font-size: 13px;
-    line-height: 20px;
-  }
-  .fourthSection {
-    padding-top: 6%;
-    background-color: whitesmoke;
-    font-family: "Hanken Grotesk", sans-serif;
-  }
-  .fourthSection h2 {
-    text-align: center;
-    font-size: 25px;
-    font-family: "Hanken Grotesk", sans-serif;
-  }
-  .fourthSection p {
-    font-family: "Hanken Grotesk", sans-serif;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .solutionFlex {
-    display: flex;
-    gap: 30px;
-    padding-top: 3%;
-    justify-content: center;
-    box-shadow: 0px 0px 90px 0.1px rgba(0, 0, 2, 0.1);
-  }
-  .solutionFlex h3 {
-    text-align: center;
-    color: steelblue;
+  .firstAssistancesubCardsmobile p {
+    margin: 0 auto;
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 16px;
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 22px;
+    font-weight: 600;
   }
-  .solutionFlex p {
+  .secondAssistancesubCardsmobile h3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: orange;
+    padding-top: 5rem;
+    margin: 0 auto;
     font-family: "Hanken Grotesk", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 25%;
+  }
+  .secondAssistancesubCardsmobile p {
+    margin: 0 auto;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 22px;
+    font-weight: 600;
+  }
+  .fourthSection h2 {
+    display: none;
+  }
+  .fourthSectionparagraph {
+    display: none;
+  }
+  .solutionFlex {
+    display: none;
+  }
+  .solutionsMobile {
+    padding-top: 15%;
+  }
+  .solutionsMobile h3 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 800;
+  }
+  .solutionsMobile p {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .firstSolutionsflexMobile h3 {
+    text-align: center;
+    font-size: 16px;
+    color: steelblue;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  .firstSolutionsflexMobile p {
     text-align: center;
     font-size: 13px;
-    font-weight: 700;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
     color: gray;
+    line-height: 20px;
   }
-  .firstSolutionflex {
+  .secondSolutionsflexMobile h3 {
+    text-align: center;
+    font-size: 16px;
+    color: steelblue;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  .secondSolutionsflexMobile p {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    color: gray;
+    line-height: 20px;
+  }
+  .thirdSolutionsflexMobile h3 {
+    text-align: center;
+    font-size: 16px;
+    color: steelblue;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  .thirdSolutionsflexMobile p {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    color: gray;
+    line-height: 20px;
+  }
+  .fourthSolutionsflexMobile h3 {
+    text-align: center;
+    font-size: 16px;
+    color: steelblue;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  .fourthSolutionsflexMobile p {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    color: gray;
+    line-height: 20px;
+  }
+
+  .solutionsFlexmobile {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 10%;
+  }
+  .firstSolutionsflexMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 45%;
+    border-bottom: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .firstSolutionsflexMobile img {
+    display: block;
+    margin: 0 auto;
+  }
+  .secondSolutionsflexMobile {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -559,8 +638,14 @@
     border-bottom: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
   }
-  .secondSolutionflex {
+  .secondSolutionsflexMobile img {
+    display: block;
+    margin: 0 auto;
+  }
+  .thirdSolutionsflexMobile {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -570,20 +655,14 @@
     border-bottom: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
   }
-  .thirdSolutionflex {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 35px;
-    padding-top: 2.4%;
-    background-color: white;
-    border-radius: 45%;
-    border-bottom: none;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  .thirdSolutionsflexMobile img {
+    display: block;
+    margin: 0 auto;
   }
-  .fourthSolutionflex {
+  .fourthSolutionsflexMobile {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -593,6 +672,12 @@
     border-bottom: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .fourthSolutionsflexMobile img {
+    display: block;
+    margin: 0 auto;
   }
   .clients {
     padding: 7%;
@@ -610,9 +695,7 @@
     justify-content: space-around;
   }
   .btnImage {
-    display: flex;
-    justify-content: center;
-    padding: 7%;
+    display: none;
   }
   .requests {
     display: flex;
@@ -901,163 +984,8 @@ body {
   position: relative;
   bottom: 20px;
 }
-.assistanceCardsmobile {
-  padding-top: 5px;
-}
-.firstAssistancesubCardsmobile {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.firstAssistancesubCardsmobile h3 {
-  height: 100px;
-  width: 180px;
-  border-radius: 50%;
-  text-align: center;
-  background-color: steelblue;
-  padding-top: 5rem;
-  margin: 0 auto;
-  font-family: "Hanken Grotesk", sans-serif;
-  color: white;
-  font-size: 20px;
-}
-.firstAssistancesubCardsmobile p {
-  margin: 0 auto;
-  font-family: "Hanken Grotesk", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  padding-top: 3rem;
-  line-height: 22px;
-  font-weight: 600;
-}
-.secondAssistancesubCardsmobile h3 {
-  height: 100px;
-  width: 180px;
-  border-radius: 50%;
-  text-align: center;
-  background-color: orange;
-  padding-top: 5rem;
-  margin: 0 auto;
-  font-family: "Hanken Grotesk", sans-serif;
-  color: white;
-  font-size: 20px;
-  margin-top: 25%;
-}
-.secondAssistancesubCardsmobile p {
-  margin: 0 auto;
-  font-family: "Hanken Grotesk", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  padding-top: 3rem;
-  line-height: 22px;
-  font-weight: 600;
-}
-.solutionsMobile {
-  padding-top: 15%;
-}
-.solutionsMobile h3 {
-  font-family: "Hanken Grotesk", sans-serif;
-  font-size: 30px;
-  text-align: center;
-  line-height: 35px;
-  font-weight: 800;
-}
-.solutionsMobile p {
-  font-family: "Hanken Grotesk", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  line-height: 25px;
-  font-weight: 500;
-  position: relative;
-  bottom: 20px;
-}
-.solutionsflexMobile {
-  padding-top: 7%;
-  padding-left: 7%;
-}
-.solutionsflexMobile h3 {
-  text-align: center;
-  font-size: 16px;
-  color: steelblue;
-  font-family: "Hanken Grotesk", sans-serif;
-}
-.solutionsflexMobile p {
-  text-align: center;
-  font-size: 12px;
-  font-family: "Hanken Grotesk", sans-serif;
-  font-weight: 600;
-  color: gray;
-  line-height: 20px;
-}
-.solutionsflexMobile {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.firstSolutionsflexMobile {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 25px;
-  background-color: white;
-  border-radius: 45%;
-  border-bottom: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 300px;
-}
-.firstSolutionsflexMobile img {
-  display: block;
-  margin: 0 auto;
-}
-.secondSolutionsflexMobile {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 35px;
-  background-color: white;
-  border-radius: 45%;
-  border-bottom: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 300px;
-}
-.secondSolutionsflexMobile img {
-  display: block;
-  margin: 0 auto;
-}
-.thirdSolutionsflexMobile {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 35px;
-  background-color: white;
-  border-radius: 45%;
-  border-bottom: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 300px;
-}
-.thirdSolutionsflexMobile img {
-  display: block;
-  margin: 0 auto;
-}
-.fourthSolutionsflexMobile {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 35px;
-  background-color: white;
-  border-radius: 45%;
-  border-bottom: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 300px;
-}
-.fourthSolutionsflexMobile img {
-  display: block;
-  margin: 0 auto;
-}
+
+
 .clientsMobile {
   padding-top: 7%;
 }

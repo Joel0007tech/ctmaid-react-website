@@ -32,8 +32,8 @@ import RequestsImage from "./hamza-javaid-PizD8punZsw-unsplash.svg";
 // import FourthVectorImage from "./Vector (2).png";
 import FirstMobileImage from "./head_4-8bb48958.png";
 import SecondMobileImage from "./head_2-a1723a84.png";
-// import ThirdMobileImage from "./sol_2-1fbb264d.svg";
-// import FourthMobileImage from "./sol_3-3ad25d14.svg";
+import ThirdMobileImage from "./sol_2-1fbb264d.svg";
+import FourthMobileImage from "./sol_3-3ad25d14.svg";
 import Footer from "./footer";
 import "./Home.css";
 
@@ -88,154 +88,10 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="synergyMobile">
-        <div className="firstHeadingmobile">
-          <h1 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            CTMAID SYNERGY
-          </h1>
-          <p>
-            The waste we create today will have an <br /> impact our planet for
-            years to come,
-            <br /> let's make sure it's a positive one.
-          </p>
-        </div>
-        <div className="firstImagesynergyMobile">
-          <img src={FirstMobileImage} alt="" width="350px" height="220px" />
-          <img src={SecondMobileImage} alt="" width="350px" height="220px" />
-          <img src={ThirdSynergyImage} alt="" width="350px" />
-        </div>
-        <div className="secondHeadingparagraphMobile">
-          <h2 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            Our Impact
-          </h2>
-          <p>
-            CTMaid Synergy is making social,
-            <br /> environmental and economic impacts in the
-            <br /> cities it operates
-          </p>
-        </div>
-        <div className="impactSynergyflexMobile">
-          <div className="firstImpactsynergyMobile">
-            <img src={FirstImpactImage} alt="" width="200px" height="100px" />
-            <h5>100+</h5>
-            <p>Empowered waste pickers</p>
-          </div>
-          <div className="secondImpactsynergyMobile">
-            <img src={SecondImpactImage} alt="" width="200px" height="100px" />
-            <h5>20</h5>
-            <p>Professional workers</p>
-          </div>
-          <div className="thirdImpactsynergyMobile">
-            <img src={ThirdImpactImage} alt="" width="200px" height="100px" />
-            <h5>1000+</h5>
-            <p>Residents served</p>
-          </div>
-          <div className="fourthImpactsynergyMobile">
-            <img src={FourthImpactImage} alt="" width="200px" height="100px" />
-            <h5>10 tonnes</h5>
-            <p>Plastic weight recycled monthly</p>
-          </div>
-        </div>
-        <div className="assistanceMobile">
-          <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            How may we be of
-            <br /> assistance?
-          </h3>
-          <p>
-            We work to reduce, reuse, and recycle
-            <br />
-            to create a cleaner, healthier and more
-            <br /> sustainable future.
-          </p>
-        </div>
-        <div className="assistanceCardsmobile">
-          <div className="firstAssistancesubCardsmobile">
-            <h3>Mission</h3>
-            <p>
-              We are committed to attaining efficient waste
-              <br />
-              management systems and employing versatile
-              <br />
-              solutions and best practices in order to give our
-              <br /> customers a pollution free environment via regular
-              <br /> and on-time service delivery methods.
-            </p>
-          </div>
-          <div className="secondAssistancesubCardsmobile">
-            <h3>Vision</h3>
-            <p>
-              To be the best provider of environmental services in
-              <br /> Africa.
-            </p>
-          </div>
-        </div>
-        <div className="solutionsMobile">
-          <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            Solutions for Various
-            <br /> Industries
-          </h3>
-          <p>
-            In order to create a cleaner and healthier
-            <br />
-            environment, we create solutions in the
-            <br /> following areas:
-          </p>
-        </div>
-        <div className="solutionsFlexmobile">
-          <div className="firstSolutionsflexMobile">
-            <img src={FirstSolutionImage} alt="" width="150px" height="150px" />
-            <h3>E-Waste Management</h3>
-            <p>
-              E-waste management is defined as a holistic
-              <br />
-              method of cutting down electronic waste from the
-              <br />
-              earth to prevent its harmful and toxic effect from
-              <br />
-              deteriorating the earth.
-            </p>
-          </div>
-          <div className="secondSolutionsflexMobile">
-            <img src={ThirdMobileImage} alt="" width="150px" height="150px" />
-            <h3>Plastic Waste Management</h3>
-            <p>
-              The reprocessing of plastic waste into new
-              <br />
-              products which in turn reduces dependence on
-              <br />
-              landfill and protects the environment from plastic
-              <br />
-              pollution.
-            </p>
-          </div>
-          <div className="thirdSolutionsflexMobile">
-            <img src={FourthMobileImage} alt="" width="150px" height="150px" />
-            <h3>Municipal Waste Management</h3>
-            <p>
-              Waste produced by individual and households are
-              <br />
-              being collected separated, reused, stored,
-              <br />
-              transported and recycled on a daily basis
-            </p>
-          </div>
-          <div className="fourthSolutionsflexMobile">
-            <img
-              src={FourthSolutionImage}
-              alt=""
-              width="150px"
-              height="150px"
-            />
-            <h3>Cleaning Services</h3>
-            <p>
-              Cleaning Services has an integrated service that
-              <br />
-              takes care of all the stages of cleaning, sanitising,
-              <br />
-              and waste management of small and large spaces.
-            </p>
-          </div>
-        </div>
+    
+        
+       
+        
         <div className="clients-mobile">
           <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
             Meet Our Clients
@@ -332,16 +188,31 @@ function Home() {
       </footer> */}
       <div className="firstSection">
         <h2>CTMAID SYNERGY</h2>
-        <p>
+        <p className="firstSectionparagraph">
           The waste we create today will have an impact on our planet for
           <br />
           years to come, let's make sure it's a positive one.
         </p>
+        <p className="firstSectionmobileParagraph">
+          The waste we create today will have an <br /> impact our planet for
+          years to come,
+          <br /> let's make sure it's a positive one.
+        </p>
         <div className="firstSectionimageFlex">
           <img src={FirstSynergyImage} alt="" className="firstSynergyimage" />
           <img src={SecondSynergyImage} alt="" className="secondSynergyimage" />
-          <img src={FirstMobileImage} alt="" className="firstMobileimage" />
-          <img src={SecondMobileImage} alt="" className="secondMobileimage" />
+          <img
+            src={FirstMobileImage}
+            alt=""
+            className="firstMobileimage"
+            style={{ width: "350px", height: "220px" }}
+          />
+          <img
+            src={SecondMobileImage}
+            alt=""
+            className="secondMobileimage"
+            style={{ width: "350px", height: "220px" }}
+          />
           <img src={ThirdSynergyImage} alt="" />
         </div>
       </div>
@@ -359,26 +230,32 @@ function Home() {
           </div>
           <div className="secondImpactitemsFlex">
             <img src={SecondImpactImage} alt="" />
-            <h4>20</h4>
+            <h4>20+</h4>
             <p>Professional workers</p>
           </div>
           <div className="thirdImpactitemsFlex">
             <img src={ThirdImpactImage} alt="" />
-            <h4>1000 +</h4>
+            <h4>1000+</h4>
             <p>Residents served</p>
           </div>
           <div className="fourthImpactitemsFlex">
             <img src={FourthImpactImage} alt="" />
-            <h4>10 tonnes</h4>
-            <p>Plastic weight recycle</p>
+            <h4>10+ tonnes</h4>
+            <p>Plastic weight recycle monthly</p>
           </div>
         </div>
       </div>
       <div className="thirdSection">
         <h2>How may we be of assistance?</h2>
-        <p>
+        <p className="thirdSectionparagraph">
           We work to reduce, reuse, and recycle to create a cleaner, healthier
           and more sustainable future.
+        </p>
+        <p className="thirdSectionparagraphMobile">
+          We work to reduce, reuse, and recycle
+          <br />
+          to create a cleaner, healthier and more
+          <br /> sustainable future.
         </p>
         <div className="assistanceFlex">
           <div className="firstAssistanceflex">
@@ -404,10 +281,31 @@ function Home() {
             </p>
           </div>
         </div>
+        <div className="assistanceCardsmobile">
+          <div className="firstAssistancesubCardsmobile">
+            <h3>Mission</h3>
+            <p>
+              We are committed to attaining efficient waste
+              <br />
+              management systems and employing versatile
+              <br />
+              solutions and best practices in order to give our
+              <br /> customers a pollution free environment via regular
+              <br /> and on-time service delivery methods.
+            </p>
+          </div>
+          <div className="secondAssistancesubCardsmobile">
+            <h3>Vision</h3>
+            <p>
+              To be the best provider of environmental services in
+              <br /> Africa.
+            </p>
+          </div>
+        </div>
       </div>
       <div className="fourthSection">
         <h2>Solutions for Various Industries</h2>
-        <p>
+        <p className="fourthSectionparagraph">
           Our crew work together to reduce, reuse, and recycle to create a
           cleaner, healthier and more sustainable future
         </p>
@@ -496,6 +394,73 @@ function Home() {
               Proper waste management is
               <br /> crucial for preserving the planet
               <br /> for future generations.
+            </p>
+          </div>
+        </div>
+        <div className="solutionsMobile">
+          <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+            Solutions for Various
+            <br /> Industries
+          </h3>
+          <p>
+            In order to create a cleaner and healthier
+            <br />
+            environment, we create solutions in the
+            <br /> following areas:
+          </p>
+        </div>
+        <div className="solutionsFlexmobile">
+          <div className="firstSolutionsflexMobile">
+            <img src={FirstSolutionImage} alt="" width="150px" height="150px" />
+            <h3>E-Waste Management</h3>
+            <p>
+              E-waste management is defined as a holistic
+              <br />
+              method of cutting down electronic waste from the
+              <br />
+              earth to prevent its harmful and toxic effect from
+              <br />
+              deteriorating the earth.
+            </p>
+          </div>
+          <div className="secondSolutionsflexMobile">
+            <img src={ThirdMobileImage} alt="" width="150px" height="150px" />
+            <h3>Plastic Waste Management</h3>
+            <p>
+              The reprocessing of plastic waste into new
+              <br />
+              products which in turn reduces dependence on
+              <br />
+              landfill and protects the environment from plastic
+              <br />
+              pollution.
+            </p>
+          </div>
+          <div className="thirdSolutionsflexMobile">
+            <img src={FourthMobileImage} alt="" width="150px" height="150px" />
+            <h3>Municipal Waste Management</h3>
+            <p>
+              Waste produced by individual and households are
+              <br />
+              being collected separated, reused, stored,
+              <br />
+              transported and recycled on a daily basis
+            </p>
+          </div>
+          <div className="fourthSolutionsflexMobile">
+            <img
+              src={FourthSolutionImage}
+              alt=""
+              width="150px"
+              height="150px"
+            />
+            <h3>Cleaning Services</h3>
+            <p>
+              Cleaning Services has an integrated service that
+              <br />
+              takes care of all the stages of cleaning, sanitising,
+              <br />
+              and waste management of small and large spaces.
             </p>
           </div>
         </div>
