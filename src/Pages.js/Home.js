@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Nav";
-// import Logo from "./ctmaid 1.png";
 import FirstSynergyImage from "./Rectangle-2.svg";
 import SecondSynergyImage from "./Rectangle.svg";
 import ThirdSynergyImage from "./Rectangle-1.svg";
@@ -19,13 +18,13 @@ import FourthClientImage from "./WhatsApp Image 2023-01-27 at 6.34 (1).png";
 import FifthClientImage from "./WhatsApp Image 2023-01-27 at 6.39.png";
 import BtnImageItem from "./Rectangle-3.svg";
 import RequestsImage from "./hamza-javaid-PizD8punZsw-unsplash.svg";
-// import FirstClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.31.png";
-// import SecondClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.32.png";
-// import ThirdClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.33.png";
-// import FourthClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.34 (1).png";
-// import FifthClientMobileImage from "./cli_5-be6da251.svg";
-// import SixthClientMobileImage from "./cli_6-bef36947.svg";
-// import SeventhClientMobileImage from "./cli_7-e305d0b7.svg";
+import FirstClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.31.png";
+import SecondClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.32.png";
+import ThirdClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.33.png";
+import FourthClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.34 (1).png";
+import FifthClientMobileImage from "./cli_5-be6da251.svg";
+import SixthClientMobileImage from "./cli_6-bef36947.svg";
+import SeventhClientMobileImage from "./cli_7-e305d0b7.svg";
 // import FirstVectorImage from "./Vector (3).png";
 // import SecondVectorImage from "./Vector.png";
 // import ThirdVectorImage from "./Vector (1).png";
@@ -36,181 +35,38 @@ import ThirdMobileImage from "./sol_2-1fbb264d.svg";
 import FourthMobileImage from "./sol_3-3ad25d14.svg";
 import Footer from "./footer";
 import "./Home.css";
-
-// function OpenNav() {
-//   document.getElementById("mySidepanel").style.width = "100%";
-// }
-
-// function CloseNav() {
-//   document.getElementById("mySidepanel").style.width = "0";
-// }
+import MobileNavbar from "./MobileNav";
+import "./mobilenav.css";
 
 function Home() {
   return (
     <div>
       <Navbar />
-      {/* <div id="mobileView">
-        <div id="mySidepanel" className="sidePanel">
-          <a
-            href="https://google.com"
-            className="closeBtn"
-            onClick={CloseNav()}
-          >
-            &times;
-          </a>
-          <div class="mobile-nav">
-            <a href="about.html" target="_blank">
-              {" "}
-              Home
-            </a>
-            <a href="blog.html" target="_blank">
-              {" "}
-              Blog
-            </a>
-            <a href="about.html" target="_blank">
-              {" "}
-              About Us
-            </a>
-            <a href="contact.html" target="_blank">
-              Contact Us
-            </a>
-          </div>
-        </div>
-        <div className="buttonNav">
-          <img
-            src={Logo}
-            className="imgNav"
-            style={{ height: "100px", width: "200px" }}
-            alt=""
-          />
-          <button className="openBtn" onclick={OpenNav()}>
-            ≡
-          </button>
-        </div>
-      </div>
-    
-        
-       
-        
-        <div className="clients-mobile">
-          <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            Meet Our Clients
-          </h3>
-          <div className="clientsImgflexMobile">
-            <img
-              src={FirstClientMobileImage}
-              alt=""
-              width="150px"
-              height="100px"
-            />
-            <img
-              src={SecondClientMobileImage}
-              alt=""
-              width="200px"
-              height="30px"
-              class="mobil"
-            />
-            <img
-              src={ThirdClientMobileImage}
-              alt=""
-              width="200px"
-              height="100px"
-            />
-            <img
-              src={FourthClientMobileImage}
-              alt=""
-              width="200px"
-              height="100px"
-            />
-            <img
-              src={FifthClientMobileImage}
-              alt=""
-              height="100px"
-              width="150px"
-            />
-            <img
-              src={SixthClientMobileImage}
-              alt=""
-              height="100px"
-              width="150px"
-            />
-            <img
-              src={SeventhClientMobileImage}
-              alt=""
-              height="100px"
-              width="150px"
-              class="uba"
-            />
-          </div>
-        </div>
-        <div className="requestParagraphlinkMobile">
-          <p style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            Intent in being responsible in
-            <br /> creating a sustainable future for
-            <br /> our planet?
-          </p>
-          <a href="http//">Request for waste collection</a>
-        </div>
-        <div className="binImagesmobile">
-          <img src={BtnImageItem} alt="" width="500px" />
-        </div>
-      </div>
-      <footer id="footerItemsmobile">
-        <p>
-          @ 2023, CTMaid Synergy Ltd. All rights
-          <br /> reserved
-        </p>
-        <img src={Logo} alt="" height="150px" className="footerLogo" />
-        <div className="linksMobile">
-          <img
-            src={FirstVectorImage}
-            alt=""
-            srcset=""
-            height="30px"
-            width="20px"
-          />
-          <img
-            src={SecondVectorImage}
-            alt=""
-            srcset=""
-            height="30px"
-            width="37px"
-          />
-          <img
-            src={ThirdVectorImage}
-            alt=""
-            srcset=""
-            height="30px"
-            width="25px"
-          />
-          <img src={FourthVectorImage} alt="" height="30px" width="28px" />
-        </div>
-      </footer> */}
       <div className="firstSection">
         <h2>CTMAID SYNERGY</h2>
-        <p className="firstSectionparagraph">
+        <p className="firstparagraph">
           The waste we create today will have an impact on our planet for
           <br />
           years to come, let's make sure it's a positive one.
         </p>
-        <p className="firstSectionmobileParagraph">
+        <p className="firstmobileParagraph">
           The waste we create today will have an <br /> impact our planet for
           years to come,
           <br /> let's make sure it's a positive one.
         </p>
         <div className="firstSectionimageFlex">
-          <img src={FirstSynergyImage} alt="" className="firstSynergyimage" />
-          <img src={SecondSynergyImage} alt="" className="secondSynergyimage" />
+          <img src={FirstSynergyImage} alt="" className="firstimage" />
+          <img src={SecondSynergyImage} alt="" className="secondimage" />
           <img
             src={FirstMobileImage}
             alt=""
-            className="firstMobileimage"
+            className="firstImg"
             style={{ width: "350px", height: "220px" }}
           />
           <img
             src={SecondMobileImage}
             alt=""
-            className="secondMobileimage"
+            className="secondImg"
             style={{ width: "350px", height: "220px" }}
           />
           <img src={ThirdSynergyImage} alt="" />
@@ -247,18 +103,18 @@ function Home() {
       </div>
       <div className="thirdSection">
         <h2>How may we be of assistance?</h2>
-        <p className="thirdSectionparagraph">
+        <p className="thirdparagraph">
           We work to reduce, reuse, and recycle to create a cleaner, healthier
           and more sustainable future.
         </p>
-        <p className="thirdSectionparagraphMobile">
+        <p className="thirdparagraphMobile">
           We work to reduce, reuse, and recycle
           <br />
           to create a cleaner, healthier and more
           <br /> sustainable future.
         </p>
         <div className="assistanceFlex">
-          <div className="firstAssistanceflex">
+          <div className="firstflex">
             <h3>MISSION</h3>
             <p>
               We are committed to attaining efficient waste
@@ -272,7 +128,7 @@ function Home() {
               regular and on-time service delivery methods.
             </p>
           </div>
-          <div className="secondAssistanceflex">
+          <div className="secondflex">
             <h3>VISION</h3>
             <p>
               To be the best provider of environmental
@@ -281,8 +137,8 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="assistanceCardsmobile">
-          <div className="firstAssistancesubCardsmobile">
+        <div className="assistanceCards">
+          <div className="firstCard">
             <h3>Mission</h3>
             <p>
               We are committed to attaining efficient waste
@@ -294,7 +150,7 @@ function Home() {
               <br /> and on-time service delivery methods.
             </p>
           </div>
-          <div className="secondAssistancesubCardsmobile">
+          <div className="secondCard">
             <h3>Vision</h3>
             <p>
               To be the best provider of environmental services in
@@ -505,6 +361,57 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="clientMobile">
+        <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+          Meet Our Clients
+        </h3>
+        <div className="clientsflexMobile">
+          <img
+            src={FirstClientMobileImage}
+            alt=""
+            width="150px"
+            height="100px"
+          />
+          <img
+            src={SecondClientMobileImage}
+            alt=""
+            width="200px"
+            height="30px"
+            class="mobil"
+          />
+          <img
+            src={ThirdClientMobileImage}
+            alt=""
+            width="200px"
+            height="100px"
+          />
+          <img
+            src={FourthClientMobileImage}
+            alt=""
+            width="200px"
+            height="100px"
+          />
+          <img
+            src={FifthClientMobileImage}
+            alt=""
+            height="100px"
+            width="150px"
+          />
+          <img
+            src={SixthClientMobileImage}
+            alt=""
+            height="100px"
+            width="150px"
+          />
+          <img
+            src={SeventhClientMobileImage}
+            alt=""
+            height="100px"
+            width="150px"
+            class="uba"
+          />
+        </div>
+      </div>
       <div className="btnImage">
         <img src={BtnImageItem} alt="" style={{ width: "1500px" }} />
       </div>
@@ -519,6 +426,17 @@ function Home() {
             Request for waste collection
           </a>
         </div>
+      </div>
+      <div className="requestMobile">
+        <p style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+          Intent in being responsible in
+          <br /> creating a sustainable future for
+          <br /> our planet?
+        </p>
+        <a href="http//">Request for waste collection</a>
+      </div>
+      <div className="binImgmobile">
+        <img src={BtnImageItem} alt="" width="500px" />
       </div>
       <Footer />
       <h3 className="act">hi</h3>
