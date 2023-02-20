@@ -3,6 +3,7 @@ import Navbar from "./Nav";
 import NewFooter from "./NewFooter";
 import FirstBlogImage from "./istockphoto-1130535812-612x612 3 (1).png";
 import SecondBlogImage from "./istockphoto-1130535812-612x612 4.png";
+import "./Blog.css";
 
 const BlogItems = {
   display: "flex",

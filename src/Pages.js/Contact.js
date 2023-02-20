@@ -3,6 +3,7 @@ import Navbar from "./Nav";
 import NewFooter from "./NewFooter";
 import FirstContactImage from "./istockphoto-1130535812-612x612 2.png";
 import SecondContactImage from "./istockphoto-1130535812-612x612 1.png";
+import "./Contact.css";
 
 const ContactItems = {
   backgroundColor: "whitesmoke",

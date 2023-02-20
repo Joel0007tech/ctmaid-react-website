@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Nav";
 import NewFooter from "./NewFooter";
 import AboutImage from "./istockphoto-1130535812-612x612 1.png";
+import "./About.css";
 
 const AboutItems = {
   display: "flex",

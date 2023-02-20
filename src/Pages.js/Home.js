@@ -35,8 +35,7 @@ import ThirdMobileImage from "./sol_2-1fbb264d.svg";
 import FourthMobileImage from "./sol_3-3ad25d14.svg";
 import Footer from "./footer";
 import "./Home.css";
-import MobileNavbar from "./MobileNav";
-import "./mobilenav.css";
+import "./Mobilenav.css";
 
 function Home() {
   return (
