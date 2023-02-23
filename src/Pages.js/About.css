@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.aboutItems {
+  display: flex;
+  padding: 10%;
+  background-color: whitesmoke;
+}
+.aboutItems h4 {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.aboutItems p {
+  font-family: "Hanken Grotesk", sans-serif;
+  color: gray;
+  font-size: 18px;
+  margin-top: 10%;
+  font-weight: 700;
+  line-height: 25px;
+}
+.aboutLink {
+  font-family: "Hanken Grotesk", sans-serif;
+  padding: 15px;
+  background-color: steelblue;
+  padding-left: 85px;
+  padding-right: 85px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: 80px;
+  color: white;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 16px;
+}

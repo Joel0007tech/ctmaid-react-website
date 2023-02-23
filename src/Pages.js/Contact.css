@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.contactItems {
+  background-color: whitesmoke;
+  padding-top: 7%;
+}
+.firstContactitems h3 {
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: orange;
+  padding-top: 1%;
+}
+.firstContactitems h2 {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  position: relative;
+  bottom: 50px;
+}
+.firstContactitems p {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  bottom: 40px;
+  font-weight: 500;
+}
+.supportCustomer {
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.supportCustomer h3 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+  color: rgb(70, 68, 68);
+}
+.supportCustomer p {
+  font-family: "Hanken Grotesk", sans-serif;
+  position: relative;
+  right: 90px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 700;
+}
+.supportLink {
+  font-family: "Hanken Grotesk", sans-serif;
+  position: relative;
+  right: 60px;
+  color: steelblue;
+  font-weight: 700;
+  font-size: 13px;
+}
+.customerCareheading {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  color: rgb(70, 68, 68);
+}
+.customerCareparagraph {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  color: gray;
+  font-weight: 700;
+  position: relative;
+  left: 2px;
+}
+.customerCarenumber {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-decoration: none;
+  color: steelblue;
+  font-weight: 600;
+  position: relative;
+  left: 2px;
+}
+.whatsappAddressfacebook {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 150px;
+}
+.whatsapp {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.whatsapp h3 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  color: rgb(70, 68, 68);
+}
+.whatsapp p {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: steelblue;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.address h3 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  color: rgb(70, 68, 68);
+}
+.address p {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: gray;
+  position: relative;
+  right: 80px;
+}
+.facebook {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.facebook h3 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  color: rgb(70, 68, 68);
+}
+.facebook p {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: gray;
+  position: relative;
+  right: 20px;
+}
+
+.contactImage {
+  width: 100%;
+  background-color: rgb(194, 226, 252);
+  margin-top: 7%;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./ctmaid 1.png";
 import { Link } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 
 const Heading = {
   height: "70px",
@@ -103,6 +104,8 @@ function MouseLeaveAbout() {
 }
 
 function Navbar() {
+  const isDesktop = useMediaQuery({ query: "(min-width:428px)" });
+  const isPhone = useMediaQuery({query:'(max-width:428px)'})
   return (
     <div>
       <div>
