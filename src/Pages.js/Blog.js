@@ -7,17 +7,33 @@ import "./Blog.css";
 import { useMediaQuery } from "react-responsive";
 
 function Blog() {
-  const isDesktop = useMediaQuery({ query: "(min-width:429px)" });
-  const isPhone = useMediaQuery({ query: "(max-width:428px)" });
+  const desktopContent = useMediaQuery({ query: "(min-width:429px)" });
+  const phoneContent = useMediaQuery({ query: "(max-width:428px)" });
   return (
     <div>
       <Navbar />
       <div className="blogItems">
         <div>
-          <h2>Blog post for 23rd January, 2023</h2>
-          <h1>UNTITLED BLOG POST</h1>
-          <h3>What you need to know about waste management</h3>
-          {isDesktop && (
+          {desktopContent && <h2>Blog post for 23rd January, 2023</h2>}
+          {phoneContent && (
+            <h2 className="firstMobileheading">
+              Blog post for 23rd January, 2023
+            </h2>
+          )}
+          {desktopContent && <h1>UNTITLED BLOG POST</h1>}
+          {phoneContent && (
+            <h5 className="secondMobileheading">UNTITLED BLOG POST</h5>
+          )}
+          {desktopContent && (
+            <h3>What you need to know about waste management</h3>
+          )}
+
+          {phoneContent && (
+            <h4 className="thirdMobileheading">
+              What you need to know about waste management
+            </h4>
+          )}
+          {desktopContent && (
             <ol>
               <li>
                 Proper waste management is essential for protecting the
@@ -59,7 +75,7 @@ function Blog() {
               </li>
             </ol>
           )}
-          {isPhone && (
+          {phoneContent && (
             <p>
               Gpisicing elit. Expedita, necessitatibus earum perspiciatis
               placeat sequi
@@ -79,9 +95,15 @@ function Blog() {
               vero nostrum? Illum magnam eveniet numquam dolorum.
             </p>
           )}
-
-          <h3>You have a responsibility to care about your society</h3>
-          {isDesktop && (
+          {desktopContent && (
+            <h3>You have a responsibility to care about your society</h3>
+          )}
+          {phoneContent && (
+            <h4 className="fourthMobileheading">
+              You have a responsibility to care about your society
+            </h4>
+          )}
+          {desktopContent && (
             <ul>
               <li>
                 Landfills are the most common method of waste disposal, but they
@@ -113,7 +135,7 @@ function Blog() {
               </li>
             </ul>
           )}
-          {isPhone && (
+          {phoneContent && (
             <p>
               K ipsum dolor, sit amet consectetur adipisicing elit. Expedita,
               necessitatibus

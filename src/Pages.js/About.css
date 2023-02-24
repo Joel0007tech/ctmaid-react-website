@@ -37,3 +37,42 @@
   font-weight: 700;
   font-size: 16px;
 }
+
+.aboutMobile {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.aboutMobile h4 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.aboutMobile p {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 13px;
+  margin-top: 10%;
+  font-weight: 500;
+  line-height: 30px;
+}
+.aboutMobile a {
+  padding: 15px;
+  background-color: steelblue;
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  width: 250px;
+  text-decoration: none;
+  position: relative;
+  top: 80px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.aboutMobile img {
+  padding-top: 40%;
+  position: relative;
+  right: 30%;
+}
