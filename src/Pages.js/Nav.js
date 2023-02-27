@@ -2,7 +2,6 @@ import React from "react";
 import Logo from "./ctmaid 1.png";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
-import "./Mobilenav.css"
 
 const Heading = {
   height: "70px",
@@ -57,7 +56,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
-
 
 function MouseOver() {
   document.getElementById("home").style.border = "3px solid orange";
@@ -115,94 +113,98 @@ function MouseLeaveAbout() {
 
 function Navbar() {
   const desktopContent = useMediaQuery({ query: "(min-width:429px)" });
-  const phoneContent = useMediaQuery({query:'(max-width:428px)'})
+  const phoneContent = useMediaQuery({ query: "(max-width:428px)" });
   return (
     <div>
-     {desktopContent && <div>
-        <header style={Heading}>
-          <nav style={NavStyling}>
-            <img src={Logo} alt="" style={LogoStyling} />
-            <ul style={ListStyling}>
-              <li>
-                <Link
-                  style={LinkStyling}
-                  to="/"
-                  id="home"
-                  onMouseOver={MouseOver}
-                  onMouseLeave={MouseLeave}
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  style={LinkStyling}
-                  to="blogs"
-                  target="_blank"
-                  id="blog"
-                  onMouseOver={MouseOverBlog}
-                  onMouseLeave={MouseLeaveBlog}
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  style={LinkStyling}
-                  to="about"
-                  target="_blank"
-                  id="about"
-                  onMouseOver={MouseOverAbout}
-                  onMouseLeave={MouseLeaveAbout}
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link style={ContactStyling} to="contact" target="_blank">
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </header>
-      </div>}
-     {phoneContent && <div id="mobileView">
-        <div id="mySidePanel" class="sidePanel">
-          <a href="https://google.com" class="closeBtn" onClick={closeNav()}>
-            &times;
-          </a>
-          <div className="mobileNav">
-            <a href="about.html" target="_blank">
-              {" "}
-              Home
-            </a>
-            <a href="blog.html" target="_blank">
-              {" "}
-              Blog
-            </a>
-            <a href="about.html" target="_blank">
-              {" "}
-              About Us
-            </a>
-            <a href="contact.html" target="_blank">
-              Contact Us
-            </a>
-          </div>
+      {desktopContent && (
+        <div>
+          <header style={Heading}>
+            <nav style={NavStyling}>
+              <img src={Logo} alt="" style={LogoStyling} />
+              <ul style={ListStyling}>
+                <li>
+                  <Link
+                    style={LinkStyling}
+                    to="/"
+                    id="home"
+                    onMouseOver={MouseOver}
+                    onMouseLeave={MouseLeave}
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    style={LinkStyling}
+                    to="blogs"
+                    target="_blank"
+                    id="blog"
+                    onMouseOver={MouseOverBlog}
+                    onMouseLeave={MouseLeaveBlog}
+                  >
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    style={LinkStyling}
+                    to="about"
+                    target="_blank"
+                    id="about"
+                    onMouseOver={MouseOverAbout}
+                    onMouseLeave={MouseLeaveAbout}
+                  >
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link style={ContactStyling} to="contact" target="_blank">
+                    Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </header>
         </div>
-        <header className="mobileHeading">
-          <div className="buttonNav">
-            <img
-              src={Logo}
-              style={{ height: "150px", width: "100px" }}
-              alt=""
-            />
-            <button className="openBtn" onclick={openNav()}>
-              ≡
-            </button>
+      )}
+      {phoneContent && (
+        <div id="mobileView">
+          <div id="mySidePanel" class="sidePanel">
+            <a href="https://google.com" class="closeBtn" onClick={closeNav()}>
+              &times;
+            </a>
+            <div className="mobileNav">
+              <a href="about.html" target="_blank">
+                {" "}
+                Home
+              </a>
+              <a href="blog.html" target="_blank">
+                {" "}
+                Blog
+              </a>
+              <a href="about.html" target="_blank">
+                {" "}
+                About Us
+              </a>
+              <a href="contact.html" target="_blank">
+                Contact Us
+              </a>
+            </div>
           </div>
-        </header>
-      </div>}
+          <header className="mobileHeading">
+            <div className="buttonNav">
+              <img
+                src={Logo}
+                style={{ height: "150px", width: "100px" }}
+                alt=""
+              />
+              <button className="openBtn" onclick={openNav()}>
+                ≡
+              </button>
+            </div>
+          </header>
+        </div>
+      )}
     </div>
   );
 }

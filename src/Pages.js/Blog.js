@@ -15,23 +15,9 @@ function Blog() {
       <div className="blogItems">
         <div>
           {desktopContent && <h2>Blog post for 23rd January, 2023</h2>}
-          {phoneContent && (
-            <h2 className="firstMobileheading">
-              Blog post for 23rd January, 2023
-            </h2>
-          )}
           {desktopContent && <h1>UNTITLED BLOG POST</h1>}
-          {phoneContent && (
-            <h5 className="secondMobileheading">UNTITLED BLOG POST</h5>
-          )}
           {desktopContent && (
             <h3>What you need to know about waste management</h3>
-          )}
-
-          {phoneContent && (
-            <h4 className="thirdMobileheading">
-              What you need to know about waste management
-            </h4>
           )}
           {desktopContent && (
             <ol>
@@ -75,26 +61,7 @@ function Blog() {
               </li>
             </ol>
           )}
-          {phoneContent && (
-            <p>
-              Gpisicing elit. Expedita, necessitatibus earum perspiciatis
-              placeat sequi
-              <br />
-              mollitia dignissimos ipsa provident quos non temporibus labore,
-              voluptates
-              <br />
-              vitae! Eum dolorum nobis minus pariatur voluptas. Lorem ipsum
-              dolor sit amet
-              <br />
-              consectetur adipisicing elit. Doloremque voluptates dolorem
-              repudiandae
-              <br />
-              repellendus fugit natus, molestiae harum eum provident expedita
-              magni ex qui
-              <br />
-              vero nostrum? Illum magnam eveniet numquam dolorum.
-            </p>
-          )}
+
           {desktopContent && (
             <h3>You have a responsibility to care about your society</h3>
           )}
@@ -135,44 +102,7 @@ function Blog() {
               </li>
             </ul>
           )}
-          {phoneContent && (
-            <p>
-              K ipsum dolor, sit amet consectetur adipisicing elit. Expedita,
-              necessitatibus
-              <br />
-              earum perspiciatis placeat sequi mollitia dignissimos ipsa
-              provident quos non
-              <br />
-              temporibus labore, voluptates vitae! Eum dolorum nobis minus
-              pariatur
-              <br />
-              voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque
-              <br />
-              voluptates dolorem repudiandae repellendus fugit natus, molestiae
-              harum
-              <br />
-              eum provident expedita magni ex qui vero nostrum? Illum magnam
-              eveniet
-              <br />
-              numquam dolorum pisicing elit. Expedita, necessitatibus earum
-              perspiciatis
-              <br />
-              placeat sequi mollitia dignissimos ipsa provident quos non
-              temporibus labore,
-              <br />
-              voluptates vitae! Eum dolorum nobis minus pariatur voluptas. Lorem
-              ipsum
-              <br />
-              dolor sit amet consectetur adipisicing elit. Doloremque voluptates
-              dolorem
-              <br />
-              repudiandae repellendus fugit natus, molestiae harum eum provident
-              expedita
-              <br />
-              magni ex qui vero nostrum? Illum magnam eveniet numquam dolorum.
-            </p>
-          )}
+
           <img
             src={SecondBlogImage}
             alt=""
@@ -190,7 +120,13 @@ function Blog() {
           }}
         />
       </div>
-      <NewFooter />
+      {phoneContent && (
+        <div className="blogMobile">
+          {phoneContent && <h5>Blog post for 23rd January, 2023</h5>}
+          <h4>UNTITLED BLOG POST</h4>
+        </div>
+      )}
+      {desktopContent && <NewFooter />}
     </div>
   );
 }

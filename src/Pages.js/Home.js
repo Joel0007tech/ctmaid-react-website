@@ -25,17 +25,17 @@ import FourthClientMobileImage from "./WhatsApp Image 2023-01-27 at 6.34 (1).png
 import FifthClientMobileImage from "./cli_5-be6da251.svg";
 import SixthClientMobileImage from "./cli_6-bef36947.svg";
 import SeventhClientMobileImage from "./cli_7-e305d0b7.svg";
-// import FirstVectorImage from "./Vector (3).png";
-// import SecondVectorImage from "./Vector.png";
-// import ThirdVectorImage from "./Vector (1).png";
-// import FourthVectorImage from "./Vector (2).png";
+import FirstVectorImage from "./Vector (3).png";
+import SecondVectorImage from "./Vector.png";
+import ThirdVectorImage from "./Vector (1).png";
+import FourthVectorImage from "./Vector (2).png";
 import FirstMobileImage from "./head_4-8bb48958.png";
 import SecondMobileImage from "./head_2-a1723a84.png";
 import ThirdMobileImage from "./sol_2-1fbb264d.svg";
 import FourthMobileImage from "./sol_3-3ad25d14.svg";
+import Logo from "./ctmaid 1.png";
 import Footer from "./footer";
 import "./Home.css";
-import "./Mobilenav.css";
 import { useMediaQuery } from "react-responsive";
 
 function Home() {
@@ -475,8 +475,43 @@ function Home() {
             <img src={BtnImageItem} alt="" width="500px" />
           </div>
         )}
-        <Footer />
-        <h3 className="act">hi</h3>
+        {phoneContent && (
+          <footer id="footerItemsmobile">
+            <p>
+              @ 2023, CTMaid Synergy Ltd. All rights
+              <br /> reserved
+            </p>
+            <img
+              src={Logo}
+              alt=""
+              style={{ height: "150px" }}
+              className="footerLogo"
+            />
+            <div className="linksMobile">
+              <img
+                src={FirstVectorImage}
+                alt=""
+                style={{ height: "30px", width: "25px" }}
+              />
+              <img
+                src={SecondVectorImage}
+                alt=""
+                style={{ height: "30px", width: "25px" }}
+              />
+              <img
+                src={ThirdVectorImage}
+                alt=""
+                style={{ height: "30px", width: "28px" }}
+              />
+              <img
+                src={FourthVectorImage}
+                alt=""
+                style={{ height: "30px", width: "28px" }}
+              />
+            </div>
+          </footer>
+        )}
+        {desktopContent && <Footer />}
       </div>
     </div>
   );

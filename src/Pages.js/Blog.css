@@ -52,32 +52,24 @@
   position: relative;
   right: 20px;
 }
-.firstMobileheading {
-  font-family: "Hanken Grotesk", sans-serif;
-  margin-bottom: 3%;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 16px;
+
+#footerItemsmobile {
+  padding-top: 10%;
 }
-.secondMobileheading {
+#footerItemsmobile p {
   font-family: "Hanken Grotesk", sans-serif;
-  padding-top: 8%;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 18px;
+  padding-left: 5px;
+  line-height: 25px;
 }
-.thirdMobileheading {
-  font-family: "Hanken Grotesk", sans-serif;
-  margin-bottom: 2%;
-  padding-top: 13%;
-  color: black;
+.footerLogo {
+  display: block;
+  margin: 0 auto;
+}
+.linksMobile {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   position: relative;
-  right: 15px;
-}
-.fourthMobileheading {
-  font-family: "Hanken Grotesk", sans-serif;
-  margin-bottom: 2%;
-  padding-top: 13%;
-  color: black;
-  position: relative;
-  right: 15px;
+  bottom: 25px;
 }

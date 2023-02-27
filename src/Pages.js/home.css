@@ -772,4 +772,24 @@
     padding-right: 25px;
     border-radius: 10px;
   }
+  #footerItemsmobile {
+    padding-top: 10%;
+  }
+  #footerItemsmobile p {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    padding-left: 5px;
+    line-height: 25px;
+  }
+  .footerLogo {
+    display: block;
+    margin: 0 auto;
+  }
+  .linksMobile {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    bottom: 25px;
+  }
 }

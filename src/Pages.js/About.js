@@ -2,6 +2,11 @@ import React from "react";
 import Navbar from "./Nav";
 import NewFooter from "./NewFooter";
 import AboutImage from "./istockphoto-1130535812-612x612 1.png";
+// import footerLogo from "./ctmaid 1.png";
+// import FirstVectorImage from "./Vector (3).png";
+// import SecondVectorImage from "./Vector.png";
+// import ThirdVectorImage from "./Vector (1).png";
+// import FourthVectorImage from "./Vector (2).png";
 import "./About.css";
 import { useMediaQuery } from "react-responsive";
 
