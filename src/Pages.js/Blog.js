@@ -19,6 +19,7 @@ function Blog() {
           {desktopContent && (
             <h3>What you need to know about waste management</h3>
           )}
+          {phoneContent && <h5>hello</h5>}
           {desktopContent && (
             <ol>
               <li>
@@ -64,11 +65,6 @@ function Blog() {
 
           {desktopContent && (
             <h3>You have a responsibility to care about your society</h3>
-          )}
-          {phoneContent && (
-            <h4 className="fourthMobileheading">
-              You have a responsibility to care about your society
-            </h4>
           )}
           {desktopContent && (
             <ul>
@@ -120,13 +116,13 @@ function Blog() {
           }}
         />
       </div>
+      {desktopContent && <NewFooter />}
       {phoneContent && (
         <div className="blogMobile">
           {phoneContent && <h5>Blog post for 23rd January, 2023</h5>}
           <h4>UNTITLED BLOG POST</h4>
         </div>
       )}
-      {desktopContent && <NewFooter />}
     </div>
   );
 }
